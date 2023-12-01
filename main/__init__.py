@@ -27,7 +27,7 @@ if len(AUTH) != 0:
 else:
     SUDO_USERS = set()
 
-bot = TelegramClient(bot , API_ID, API_HASH).start(bot_token=BOT_TOKEN) 
+bot = TelegramClient(BOT_TOKEN , API_ID, API_HASH).start(bot_token=BOT_TOKEN) 
 
 #userbot = Client(
 #    session_name=SESSION, 
